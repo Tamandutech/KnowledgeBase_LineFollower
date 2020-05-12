@@ -7,7 +7,7 @@ Como nem tudo na vida e nas corridas são 🌺s, a primeira parte do treinamento
 
 # Formato das respostas 📝
 
-Sejam criativos, façam da sua pasta o seu local de trabalho, e envie cada desafio contido nesse treinamento como achar melhor, seja em Scan, Pdf, Word ou PPT (entre outros formatos), o importante é o trabalho final!
+Sejam criativos, façam da sua pasta o seu local de trabalho, e envie cada desafio contido nesse treinamento como achar melhor, seja em Scan, PDF, Word ou PPT (entre outros formatos), o importante é o trabalho final!
 
 # Estrutura dos diretórios 📁
 
@@ -20,4 +20,4 @@ Somos uma comunidade, pode gritar lá no grupo, do Segue Linha ou Geral, mas cas
 
 
 
-# É dada a largada! Boa sorte ~~Tamandutechers~~ corredores!
+# É dada a largada! Boa sorte ~~Tamandutechers~~ corredores! 🏁
