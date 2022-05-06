@@ -15,8 +15,10 @@
       
 </h3>😩 Cansou? Caaalmaa, ainda não acabou!!!</h3>
 
+
 - Nós gostariamos que você nos explicasse o funcionamento de um encoder, magnético ou óptico, okay? 
   - Olha, da um google que você irá encontrar todas as informações necessárias. Caso queira saber, segue o link do encoder que utilizamos nos robôs: https://www.pololu.com/product/3081
+      
       
 </h3>🎉🥳 Chegamos ao fim dos desafios obrigatórios!!!</h3>
 
