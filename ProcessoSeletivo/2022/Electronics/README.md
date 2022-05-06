@@ -28,7 +28,7 @@
 - Utilize o microcontrolador presente no Arduino, okay? É uma placa utiliziada em demasiados projetos, ou seja, existem muitas refêrencias.
 
 
-</h3>Existe um desafio totalmente [**Opcional**], caso você tenha uma grande experiência com eletrônica, sendo:</h3>
+</h3> Existe um desafio totalmente [**Opcional**], caso você tenha uma grande experiência com eletrônica, sendo: </h3>
 - Desenvolvimento do circuito de um step-down (conversor DC-DC)
 
 
