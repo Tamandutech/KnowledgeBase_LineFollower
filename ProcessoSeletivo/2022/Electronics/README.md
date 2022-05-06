@@ -18,7 +18,7 @@
       
 </h3>😩 Cansou? Caaalmaa, ainda não acabou!!!</h3>
 
-- Nós gostariamos que você nos explicasse o funcionamento de um encoder, magnético ou optico, okay? 
+- Nós gostariamos que você nos explicasse o funcionamento de um encoder, magnético ou óptico, okay? 
 
       Olha, da um google que você irá encontrar todas as informações necessárias. Caso queira saber, segue o link do encoder que utilizamos nos robôs: https://www.pololu.com/product/3081
       
@@ -26,5 +26,11 @@
 
 Existe um desafio totalmente [**Opcional**], caso você tenha uma grande experiência com eletrônica, sendo:
 - Desenvolvimento do circuito de um step-down (conversor DC-DC)
-  
+
+
+</h3>DICA</h3>
+
+Para desenvolver e testar os circuitos criados, utilize a plataforma https://www.tinkercad.com. Trata-se de um ambiente open-source, desenvolvido pela AutoDesk, para criação e simulação de circuitos.
+Utilize o microcontrolador presente no Arduino, okay? É uma placa utiliziada em demasiados projetos, ou seja, existem muitas refêrencias.
+
 
