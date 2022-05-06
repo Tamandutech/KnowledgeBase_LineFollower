@@ -5,7 +5,7 @@
 </h3>Calma, é simples! No desafio de eletrônica você deverá concluir as seguintes tarefas:</h3>
 
 - Você deverá construir um circuito eletrônico de um seguidor de linha, incluindo atuadores, sensores e microntrolador.
-- Eithaa, como vou fazer isso? Uma diquinha, da uma fuçada nas documentações....não fala para ninguém que eu disse, ein? 🕵️‍♀️
+Eithaa, como vou fazer isso? Uma diquinha, da uma fuçada nas documentações....não fala para ninguém que eu disse, ein? 🕵️‍♀️
       
 - Não esqueça de inserir sensores em ambas as laterais do robô, para que seja possível realizar a leitura de marcações da pista.
 Apenas insira os sensores no circuito, não se preocupe como a leitura será feita...isso já é com a galera de programação!!!
