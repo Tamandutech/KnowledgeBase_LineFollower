@@ -22,13 +22,15 @@
       
 </h3>🎉🥳 Chegamos ao fim dos desafios obrigatórios!!!</h3>
 
-Existe um desafio totalmente [**Opcional**], caso você tenha uma grande experiência com eletrônica, sendo:
-- Desenvolvimento do circuito de um step-down (conversor DC-DC)
-
-
 </h3>🔴 DICA 🔴</h3>
 
 Para desenvolver e testar os circuitos criados, utilize a plataforma https://www.tinkercad.com. Trata-se de um ambiente open-source, desenvolvido pela AutoDesk, para criação e simulação de circuitos.
 Utilize o microcontrolador presente no Arduino, okay? É uma placa utiliziada em demasiados projetos, ou seja, existem muitas refêrencias.
+
+
+Existe um desafio totalmente [**Opcional**], caso você tenha uma grande experiência com eletrônica, sendo:
+- Desenvolvimento do circuito de um step-down (conversor DC-DC)
+
+
 
 
