@@ -4,7 +4,7 @@
 
 # Desafios 🦾
 
-Você deverá realizar todos os desafios obrigatórios de ao menos de uma área, pode-ser realizar todos os desafios de mais de uma área desde que ao menos uma esteja com todos completos.
+Você deverá realizar todos os desafios obrigatórios de ao menos uma área. Vale ressaltar que existe a possibilidade de realização dos desafios das demais áreas, desde que ao menos uma esteja com todos completos.
 
 Link para os desafios de:
 - [Eletrônica](Electronics/README.md)
