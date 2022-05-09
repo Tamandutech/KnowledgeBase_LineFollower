@@ -13,7 +13,7 @@ Link para os desafios de:
 
 # Formato das Respostas 📝
 
-...
+As respostas podem ser enviadas em um documento simples em formato .pdf ou .docx.
 
 
 # Precisa de Ajuda? 🆘
