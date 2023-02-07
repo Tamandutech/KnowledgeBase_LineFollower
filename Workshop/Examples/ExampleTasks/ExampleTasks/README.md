@@ -56,3 +56,40 @@ Parâmetros
 Retorno
 
 pdTRUE se o semáforo foi liberado. pdFALSE se ocorreu um erro. Semáforos são implementados usando filas. Pode ocorrer um erro se não houver espaço na fila para postar uma mensagem - indicando que o semáforo não foi obtido corretamente.
+
+## BaseType_t xTaskDelayUntil(TickType_t *const pxPreviousWakeTime, const TickType_t xTimeIncrement)
+
+Atrasar uma tarefa até um horário especificado. Esta função pode ser utilizada por tarefas periódicas para garantir uma frequência de execução constante.
+
+Parâmetros
+
+**pxPreviousWakeTime** – Ponteiro para uma variável que contém a hora em que a tarefa foi desbloqueada pela última vez. A variável deve ser inicializada com a hora atual antes de seu primeiro uso. Em seguida a variável é atualizada automaticamente dentro de xTaskDelayUntil().
+
+**xTimeIncrement** – O período de tempo do ciclo. A tarefa será desbloqueada no horário *pxPreviousWakeTime + xTimeIncrement. Chamar xTaskDelayUntil com o mesmo valor de parâmetro xTimeIncrement fará com que a tarefa seja executada com um período de interface fixo.
+
+Retorno
+
+Valor que pode ser usado para verificar se a tarefa foi realmente atrasada. Será pdTRUE se a tarefa tiver sido atrasada e pdFALSE caso contrário. Uma tarefa não será atrasada se o próximo horário de ativação esperado estiver no passado.
+
+## TickType_t xTaskGetTickCount ( void )
+
+Retorno
+
+A contagem de ticks desde que vTaskStartScheduler foi chamado, ou seja, desde que o sistema inicializou.
+
+## Passos para a criação de uma task
+
+1. Criar uma função para a task
+2. Definir o nome da task
+3. Definir o tamanho em bytes da task
+4. Criar uma variável/estrutura de dados para passar para a task permitindo que ela tenha acesso à essa variável dentro dela (opcional)
+5. Definir a prioridade dela
+6. Passar um ponteiro para receber o identificador dela e assim permitir que a task possa ser manipulada (opcional)
+
+## Explicação do exemplo
+
+Nesse exemplo inicialmente duas tasks são criadas na main com o xtaskcreate, elas são nomeadas como task1 e task2, sendo atribuídas à elas as funções vTaskFunction e vTaskTimerFunction respectivamente, além disso ambas recebe como parâmetro adicional a variável do tipo int chamada SharedData.
+Assim, a task1 fica responsável por ler o dado em SharedData e printá-lo na serial, enquanto a task2 deve de atualizar a variável SharedData a cada dois segundos com tempo que se passou desde que a task iniciou isso é feito apenas somando 2 á variável a cada vez que a task roda. Ambas as tasks utilizam o semáforo SharedSemaphore para travar o acesso à variável enquanto ela já estiver sendo acessada e liberá-la assim que ela não estiver mais sendo manipulada. 
+
+Mais informações:[Documentação da espressif sobre o freertos no esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/freertos.html)
+
