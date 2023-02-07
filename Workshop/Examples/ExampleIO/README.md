@@ -54,4 +54,7 @@ gpio_num – número do GPIO. Se você deseja obter o nível lógico, por exempl
 
 1. Configurar a direção da GPIO (input, output, etx)
 2. Configurar o pull-mode (pull up,pull down, etc) - opcional
-3. Ler ou escrever um nível lógico na GPIO 
+3. Ler ou escrever um nível lógico na GPIO
+
+# Referências
+[Documentação da espressif das GPIOs](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/gpio.html)
