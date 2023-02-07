@@ -27,7 +27,7 @@ void vTaskFunction(void *pvParameters)
 
   TaskHandle_t xTaskHandle = xTaskGetCurrentTaskHandle();
 
-  // Variavel necerraria para funcionalidade do vTaskDelayUtil, guarda a contagem de ticks da CPU
+  // Variavel necessária para a funcionalidade do vTaskDelayUtil, guarda a contagem de ticks da CPU
   TickType_t xLastWakeTime = xTaskGetTickCount();
   for(;;)
   {
