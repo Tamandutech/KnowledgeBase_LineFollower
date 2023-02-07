@@ -89,7 +89,7 @@ A contagem de ticks desde que vTaskStartScheduler foi chamado, ou seja, desde qu
 ## Explicação do exemplo
 
 Nesse exemplo inicialmente duas tasks são criadas na main com o xtaskcreate, elas são nomeadas como task1 e task2, sendo atribuídas à elas as funções vTaskFunction e vTaskTimerFunction respectivamente, além disso ambas recebe como parâmetro adicional a variável do tipo int chamada SharedData.
-Assim, a task1 fica responsável por ler o dado em SharedData e printá-lo na serial, enquanto a task2 deve de atualizar a variável SharedData a cada dois segundos com tempo que se passou desde que a task iniciou isso é feito apenas somando 2 á variável a cada vez que a task roda. Ambas as tasks utilizam o semáforo SharedSemaphore para travar o acesso à variável enquanto ela já estiver sendo acessada e liberá-la assim que ela não estiver mais sendo manipulada. 
+Assim, a task1 fica responsável por ler o dado em SharedData e printá-lo na serial, enquanto a task2 deve de atualizar a variável SharedData a cada dois segundos com tempo que se passou desde que a task iniciou isso é feito apenas somando 2 à variável a cada vez que a task roda. Ambas as tasks utilizam o semáforo SharedSemaphore para travar o acesso à variável enquanto ela já estiver sendo acessada e liberá-la assim que ela não estiver mais sendo manipulada. 
 
 Mais informações:[Documentação da espressif sobre o freertos no esp32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/freertos.html)
 
