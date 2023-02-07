@@ -18,7 +18,7 @@ void vTaskFunction(void *pvParameters)
 
   TaskHandle_t xTaskHandle = xTaskGetCurrentTaskHandle();
 
-  // Variavel necerraria para funcionalidade do vTaskDelayUtil, guarda a contagem de ticks da CPU
+  // Variável necessária para a funcionalidade do vTaskDelayUtil, guarda a contagem de ticks da CPU
   TickType_t xLastWakeTime = xTaskGetTickCount();
   for(;;)
   {
@@ -72,7 +72,7 @@ extern "C"
 }
 void app_main() 
 {
-  SharedSemaphore = xSemaphoreCreateMutex(); // inicializa semáforo
+  SharedSemaphore = xSemaphoreCreateMutex(); // inicializa o semáforo
   
   TaskHandle_t xTaskHandle = NULL;
 
