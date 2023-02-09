@@ -5,7 +5,7 @@ funções utilizadas no exemplo.
 
 # Structs
 
-struct gpio_config_t
+**struct gpio_config_t**
 
 Parâmetros de configuração do GPIO pad para a função gpio_config.
 
@@ -31,5 +31,44 @@ GPIO pull-down
 
 Tipo de interrupção da GPIO
 
-## Funções
+# Funções
+
+## esp_err_t gpio_config ( const gpio_config_t * pGPIOConfig )
+
+Configuração comum do GPIO.
+
+**Parâmetros**
+
+**pGPIOConfig** – Ponteiro para a struct de configuração da GPIO
+
+**Retorno**
+
+ESP_OK - sucesso
+
+Erro de parâmetro - ESP_ERR_INVALID_ARG
+
+## esp_err_t gpio_install_isr_service ( int intr_alloc_flags ) 
+
+## esp_err_t gpio_isr_handler_add ( gpio_num_t gpio_num , gpio_isr_t isr_handler , void * args ) 
+
+Adicione o manipulador ISR para o pino GPIO correspondente.
+
+Chame esta função depois de usar gpio_install_isr_service() para instalar o serviço do manipulador GPIO ISR do driver.
+
+**Parâmetros**
+
+gpio_num – número do GPIO
+
+isr_handler – função de manipulador ISR para o número GPIO correspondente.
+
+args – parâmetro para o manipulador ISR.
+
+**Retorno**
+
+Sucesso - ESP_OK
+
+ESP_ERR_INVALID_STATE - Estado errado, o serviço ISR não foi inicializado.
+
+Erro de parâmetro - ESP_ERR_INVALID_ARG
+
 
